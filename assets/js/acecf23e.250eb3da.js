@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkodditysaylabs=self.webpackChunkodditysaylabs||[]).push([[1903],{1912:s=>{s.exports=JSON.parse('{"blogBasePath":"/odditysaylabs/blog","blogTitle":"Blog","authorsListPath":"/odditysaylabs/blog/authors"}')}}]);

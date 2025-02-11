@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkodditysaylabs=self.webpackChunkodditysaylabs||[]).push([[2693],{2723:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/odditysaylabs/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
