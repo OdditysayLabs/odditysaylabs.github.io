@@ -2,7 +2,7 @@
   "name": "odditysaylabs",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://odditysaylabsgithub.io/odditysaylabs/"
+  "homepage": "https://odditysaylabsgithub.io/odditysaylabs/",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
