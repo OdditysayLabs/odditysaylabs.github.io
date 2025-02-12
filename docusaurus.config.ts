@@ -8,10 +8,10 @@ const config: Config = {
   title: 'OdditysayLabs',
   // tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
-  url: 'https://odditysaylabs.github.io',
-  baseUrl: '/odditysaylabs/',
-  organizationName: 'odditysaylabs',
-  projectName: 'odditysaylabs',
+  url: 'https://odditysayabs.github.io',
+  baseUrl: '/',
+  organizationName: 'OdditysayLabs',
+  projectName: 'odditysaylabs.github.io',
   trailingSlash: false,
   deploymentBranch: 'gh-pages',
 
@@ -35,7 +35,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/odditysaylabs/odditysaylabs',
+            'https://github.com/OdditysayLabs/odditysaylabs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -61,7 +61,7 @@ const config: Config = {
           label: 'Tutorial',
         },
         {
-          href: 'https://github.com/odditysaylabs/odditysaylabs',
+          href: 'https://github.com/OdditysayLabs/OdditysayLabs',
           label: 'GitHub',
           position: 'right',
         },
@@ -93,7 +93,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/odditysaylabs/',
+              href: 'https://github.com/OdditysayLabs/',
             },
           ],
         },
