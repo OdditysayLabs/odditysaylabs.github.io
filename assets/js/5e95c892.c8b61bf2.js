@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkodditysaylabs=self.webpackChunkodditysaylabs||[]).push([[9647],{8122:(s,e,a)=>{a.r(e),a.d(e,{default:()=>n});a(6540);var r=a(4164),d=a(1082),t=a(204),u=a(2831),c=a(1410),l=a(4848);function n(s){return(0,l.jsx)(d.e3,{className:(0,r.A)(t.G.wrapper.docsPages),children:(0,l.jsx)(c.A,{children:(0,u.v)(s.route.routes)})})}}}]);
