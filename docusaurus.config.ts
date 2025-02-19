@@ -32,10 +32,6 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/OdditysayLabs/odditysaylabs',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -56,9 +52,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'who_sidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Who we are',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'what_sidebar',
+          position: 'left',
+          label: 'What we do',
         },
         {
           href: 'https://github.com/OdditysayLabs/OdditysayLabs',
