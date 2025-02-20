@@ -1,0 +1,11 @@
+.content {
+  display: flex;
+  align-items: center;
+  padding: 2rem 6rem;
+  width: 100%;
+}
+
+.contentSvg {
+  height: 200px;
+  width: 200px;
+}

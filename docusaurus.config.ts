@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'OdditysayLabs',
-  // tagline: 'Dinosaurs are cool',
+  tagline: '<to be written>',
   favicon: 'img/favicon.ico',
   url: 'https://odditysayabs.github.io',
   baseUrl: '/',
@@ -72,15 +72,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Tutorial',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'Community',
           items: [
