@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'OdditysayLabs',
-  tagline: '<to be written>',
+  // tagline: '<to be written>',
   favicon: 'img/favicon.ico',
   url: 'https://odditysayabs.github.io',
   baseUrl: '/',

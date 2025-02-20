@@ -9,9 +9,6 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-import React from "react";
-import HorizontalPDFViewer from "../components/HorizontalPDFViewer";
-
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -36,6 +33,15 @@ export default function Home(): ReactNode {
       <main>
         <HomeIntro />
         <HomepageFeatures />
+        <div className="container">
+        <div className={clsx(styles.pdf_frame, styles.card)}>
+        <iframe
+          src="file/odd.pdf"
+          width="90%"
+          height="600px"
+          style={{ border: "none" }} />
+        </div>
+        </div>
       </main>
     </Layout>
   );

@@ -15,8 +15,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/webicon/svg/092-user_profile.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Many things can be done with a simple "click" in the digital world, yet what could be our identity in the digital world? Is an electronic copy of our goverment-issued card enough? 
       </>
     ),
   },
@@ -25,8 +24,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/webicon/svg/018-data_protection.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Do we actually control or even own our person data and information? What cost we have to pay in exchange for the convenience in the modern world?
       </>
     ),
   },
@@ -35,8 +33,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/webicon/svg/011-community.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        As a potential way of realizing the vision of permissionless world, decentralization has been promoted for quite a while. What is its definition? Do we understand it well enough?
       </>
     ),
   },
