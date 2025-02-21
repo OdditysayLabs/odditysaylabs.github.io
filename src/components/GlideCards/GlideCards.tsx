@@ -1,4 +1,4 @@
-import type {React, ReactNode} from 'react';
+import React, { useEffect, useRef } from "react";
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
@@ -45,28 +45,57 @@ const FeatureList: FeatureItem[] = [
 
 function Feature({title, Svg, description}: FeatureItem) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <li className="glide__slide">
+      <section className={styles.content}>
+      <div className={clsx(styles.card)}>
+          <div className="text--center">
+          <Svg className={styles.featureSvg} role="img" />
+          </div>
+          <div className="text--center padding-horiz--md">
+          <Heading as="h3">{title}</Heading>
+          <p>{description}</p>
+          </div>
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
+      </section>
+      </li>
   );
 }
 
-export default function HomepageFeatures(): ReactNode {
+
+const GlideCards = () => {
+  const glideRef = useRef<HTMLDivElement | null>(null);
+
+  useEffect(() => {
+    if (glideRef.current) {
+      const glide = new Glide(glideRef.current, {
+        type: "carousel",
+        perView: 1,
+        autoplay: 3000,
+        hoverpause: true,
+      });
+
+      glide.mount();
+      return () => glide.destroy();
+    }
+  }, []);
+
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
+    <div ref={glideRef} className="glide" style={{ width: "100%", maxWidth: "600px", margin: "auto" }}>
+      <div className="glide__track" data-glide-el="track">
+        <ul className="glide__slides">
+           {FeatureList.map((props, idx) => (
+             <Feature key={idx} {...props} />
+           ))}
+        </ul>
       </div>
-    </section>
+
+      <div className="glide__bullets" data-glide-el="controls[nav]">
+        <button className="glide__bullet" data-glide-dir="=0"></button>
+        <button className="glide__bullet" data-glide-dir="=1"></button>
+        <button className="glide__bullet" data-glide-dir="=2"></button>
+      </div>
+    </div>
   );
-}
+};
+
+export default GlideCards;

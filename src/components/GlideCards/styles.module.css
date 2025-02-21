@@ -10,6 +10,19 @@
   width: 200px;
 }
 
+.content {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.contentSvg {
+  height: 200px;
+  width: 200px;
+}
+
 .card {
   background-color: #f8f9fa;
   padding: 20px;

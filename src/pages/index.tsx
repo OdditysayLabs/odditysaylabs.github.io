@@ -1,4 +1,4 @@
-import type {ReactNode} from 'react';
+import type {React, ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -8,6 +8,8 @@ import HomeIntro from '@site/src/components/HomeIntro';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
+import GlideCards from "../components/GlideCards/GlideCards";
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -31,17 +33,20 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomeIntro />
-        <HomepageFeatures />
-        <div className="container">
-        <div className={clsx(styles.pdf_frame, styles.card)}>
-        <iframe
-          src="file/odd.pdf"
-          width="90%"
-          height="600px"
-          style={{ border: "none" }} />
+      <div class="container">
+      <div class="row">
+        <div className={clsx('col col--4')}>
+        <div className="text--right">
+          <HomeIntro />
         </div>
         </div>
+        <div className={clsx('col col--8')}>
+        <div className="text--center">
+          <GlideCards />
+        </div>
+        </div>
+      </div>
+      </div>
       </main>
     </Layout>
   );
