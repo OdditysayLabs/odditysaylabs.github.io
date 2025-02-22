@@ -76,8 +76,8 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'X',
-              href: 'https://x.com/odditysaylabs',
+              label: 'Substack',
+              href: 'https://substack.com/',
             },
           ],
         },

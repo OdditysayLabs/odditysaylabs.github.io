@@ -1,7 +1,6 @@
 .content {
   display: flex;
-
   padding: 2rem;
-  margin: 2rem;
+  margin: 0rem;
   width: 100%;
 }

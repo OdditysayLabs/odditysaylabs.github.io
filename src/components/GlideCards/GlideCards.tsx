@@ -1,11 +1,12 @@
 import React, { useEffect, useRef } from "react";
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
-import styles from './styles.module.css';
-
 import Glide from "@glidejs/glide";
+
 import "@glidejs/glide/dist/css/glide.core.min.css";
 import "@glidejs/glide/dist/css/glide.theme.min.css";
+
+import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
@@ -80,7 +81,7 @@ const GlideCards = () => {
   }, []);
 
   return (
-    <div ref={glideRef} className="glide" style={{ width: "100%", maxWidth: "600px", margin: "auto" }}>
+    <div ref={glideRef} className="glide" style={{ width: "100%", maxWidth: "700px", margin: "auto" }}>
       <div className="glide__track" data-glide-el="track">
         <ul className="glide__slides">
            {FeatureList.map((props, idx) => (

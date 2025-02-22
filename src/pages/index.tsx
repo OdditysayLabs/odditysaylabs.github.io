@@ -3,11 +3,18 @@ import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
+
+import HomePartners from '@site/src/components/HomePartners';
 import HomeIntro from '@site/src/components/HomeIntro';
 import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
+
+import React, { useEffect, useRef } from "react";
+import Glide from "@glidejs/glide";
+import "@glidejs/glide/dist/css/glide.core.min.css";
+import "@glidejs/glide/dist/css/glide.theme.min.css";
+
 
 import GlideCards from "../components/GlideCards/GlideCards";
 
@@ -34,18 +41,18 @@ export default function Home(): ReactNode {
       <HomepageHeader />
       <main>
       <div class="container">
-      <div class="row">
-        <div className={clsx('col col--4')}>
-        <div className="text--right">
-          <HomeIntro />
-        </div>
-        </div>
-        <div className={clsx('col col--8')}>
-        <div className="text--center">
-          <GlideCards />
-        </div>
-        </div>
-      </div>
+          <div class="row">
+              <div className={clsx('col col--4')}>
+              <div className="text--right">
+                  <HomeIntro />
+              </div>
+              </div>
+              <div className={clsx('col col--8')}>
+              <div className="text--center">
+                  <GlideCards />
+              </div>
+              </div>
+          </div>
       </div>
       </main>
     </Layout>
