@@ -29,6 +29,10 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.profile {
+    margin-bottom: 20px;
+}
+
 /*
 .hero {
     background-image: url("static/img/hero.jpg")''
