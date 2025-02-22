@@ -27,6 +27,13 @@ function HomepageHeader() {
           {siteConfig.title}
         </Heading>
         <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="https://odditysaylabs.substack.com/">
+            Discover more !
+          </Link>
+        </div>
       </div>
     </header>
   );
