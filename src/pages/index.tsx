@@ -30,7 +30,7 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="https://odditysaylabs.substack.com/">
+            to="docs/who">
             Discover more !
           </Link>
         </div>

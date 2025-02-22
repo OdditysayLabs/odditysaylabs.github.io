@@ -77,7 +77,7 @@ const config: Config = {
           items: [
             {
               label: 'Substack',
-              href: 'https://odditysaylabs.substack.com/',
+              href: '#',
             },
           ],
         },
