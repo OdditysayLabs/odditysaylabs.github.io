@@ -19,24 +19,24 @@ zoey@odditysay.org
 
 <div class="row profile">
 <div class="col col--3 text--right">
-<img src="/img/profile/default.png" width="120px" />
+<img src="/img/profile/px.jpg" width="120px" />
 </div>
 <div class="col col--9">
 ## [Peixing Liao](#)
 **Chief Operating Officer** <br/>
-Somewhere, Earth <br/>
+Taipei, Taiwan <br/>
 peixing@odditysay.org
 </div>
 </div>
 
 <div class="row profile">
 <div class="col col--3 text--right">
-<img src="/img/profile/hacker.png" width="120px" />
+<img src="/img/profile/wr.jpg" width="120px" />
 </div>
 <div class="col col--9">
 ## [Warren](#)
 **Lead Researcher** <br/>
-Somewhere, Earth <br/>
+The Library of Babel <br/>
 warren@odditysay.org
 </div>
 </div>
