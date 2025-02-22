@@ -3,4 +3,5 @@ title: Contact
 sidebar_position: 2
 ---
 
-# Contact
+- contact@odditysay.org
+- https://odditysaylabs.substack.com/

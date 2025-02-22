@@ -7,7 +7,7 @@ sidebar_position: 1
 
 <div class="row profile">
 <div class="col col--3 text--right">
-<img src="/img/profile/hacker.png" width="120px" />
+<img src="/img/profile/zoey.png" width="120px" />
 </div>
 <div class="col col--9">
 ## [Zoey](#)
