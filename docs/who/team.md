@@ -6,7 +6,7 @@ sidebar_position: 1
 <div class="container">
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/hacker.png" width="120px" />
 </div>
 <div class="col col--9">
@@ -18,7 +18,7 @@ zoey@odditysay.org
 </div>
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/default.png" width="120px" />
 </div>
 <div class="col col--9">
@@ -30,7 +30,7 @@ peixing@odditysay.org
 </div>
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/hacker.png" width="120px" />
 </div>
 <div class="col col--9">
@@ -42,7 +42,7 @@ warren@odditysay.org
 </div>
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/default.png" width="120px" />
 </div>
 <div class="col col--9">
@@ -54,7 +54,7 @@ lillian@odditysay.org
 </div>
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/dk.jpg" width="120px" />
 </div>
 <div class="col col--9">
@@ -66,7 +66,7 @@ denken@odditysay.org
 </div>
 
 <div class="row profile">
-<div class="col col--3">
+<div class="col col--3 text--right">
 <img src="/img/profile/yy.jpg" width="120px" />
 </div>
 <div class="col col--9">
