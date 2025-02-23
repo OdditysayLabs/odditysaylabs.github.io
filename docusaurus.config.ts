@@ -63,6 +63,11 @@ const config: Config = {
           label: 'What we do',
         },
         {
+          href: '/zine',
+          label: 'Zine',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/OdditysayLabs/OdditysayLabs',
           label: 'GitHub',
           position: 'right',
