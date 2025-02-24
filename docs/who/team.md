@@ -61,7 +61,7 @@ lillian@odditysay.org
 ## [Denken](https://denkenie.tumblr.com/)
 **Lead Engineer** <br/>
 Somewhere, Earth <br/>
-denken@odditysay.org
+denkeni@odditysay.org
 </div>
 </div>
 
