@@ -43,7 +43,7 @@ warren@odditysay.org
 
 <div class="row profile">
 <div class="col col--3 text--right">
-<img src="/img/profile/default.png" width="120px" />
+<img src="/img/profile/lln.jpg" width="120px" />
 </div>
 <div class="col col--9">
 ## [Lillian](#)
